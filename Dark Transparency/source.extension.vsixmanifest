@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Dark_Transparency.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.0" Language="en-US" Publisher="Jason Darkness (LIT.DARK)" />
+        <Identity Id="Dark_Transparency.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.0" Language="en-US" Publisher="Jason Zhang (LIT.DARK)" />
         <DisplayName>Dark Transparency Theme</DisplayName>
         <Description xml:space="preserve">Visual Studio 2022 Dark Transparency Theme for anyone prefer dark mode.
 For background please install Claudial IDE and set "Expand to IDE" as true.</Description>

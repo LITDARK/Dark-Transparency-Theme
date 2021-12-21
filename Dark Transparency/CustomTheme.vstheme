@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="Dark Transparency" GUID="{8f288f0f-16b7-493b-a62b-d9a64387de4a}" BaseGUID="{77a35f7a-aed7-4299-a539-9c671620de16}">
+  <Theme Name="Dark Transparency" GUID="{8f288f0f-16b7-493b-a62b-d9a64387de4a}" BaseGUID="{07086731-bca9-4496-8add-474b5b643c6c}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF252526" />
@@ -4027,7 +4027,7 @@
         <Background Type="CT_RAW" Source="FF717171" />
       </Color>
       <Color Name="ToolWindowBackground">
-        <Background Type="CT_RAW" Source="00252526" />
+        <Background Type="CT_RAW" Source="FF252526" />
       </Color>
       <Color Name="ToolWindowBorder">
         <Background Type="CT_RAW" Source="FF3F3F46" />
@@ -7907,6 +7907,171 @@
       <Color Name="Artboard Background">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+    </Category>
+    <Category Name="ApplicationInsights" GUID="{fb17cf37-09ea-44a4-88a6-cd806fc6a24a}">
+      <Color Name="ButtonBorder">
+        <Background Type="CT_RAW" Source="FF4B76E7" />
+      </Color>
+      <Color Name="Button">
+        <Background Type="CT_RAW" Source="FF0460C8" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="ButtonHover">
+        <Background Type="CT_RAW" Source="FF0573EE" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="LandingPageBackground">
+        <Background Type="CT_RAW" Source="FFEEEEEE" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="LandingPageLetters">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="ComboBoxText">
+        <Background Type="CT_RAW" Source="FF000000" />
+      </Color>
+      <Color Name="AIGrayText">
+        <Background Type="CT_RAW" Source="FF555555" />
+      </Color>
+      <Color Name="Success">
+        <Background Type="CT_RAW" Source="FF008000" />
+      </Color>
+      <Color Name="Error">
+        <Background Type="CT_RAW" Source="FFE00000" />
+      </Color>
+      <Color Name="TrendsAssistanceItemHeader">
+        <Foreground Type="CT_RAW" Source="FF9B4601" />
+      </Color>
+      <Color Name="TrendsShapesRegular">
+        <Background Type="CT_RAW" Source="FF0068AE" />
+      </Color>
+      <Color Name="TrendsShapesHighlighted">
+        <Background Type="CT_RAW" Source="FFB8860B" />
+      </Color>
+      <Color Name="StatusOK">
+        <Background Type="CT_RAW" Source="FF4EB543" />
+      </Color>
+      <Color Name="StatusPending">
+        <Background Type="CT_RAW" Source="FFE00000" />
+      </Color>
+      <Color Name="StatusWarning">
+        <Background Type="CT_RAW" Source="FFF1CA5D" />
+      </Color>
+      <Color Name="AIPurple">
+        <Background Type="CT_RAW" Source="FF5C2D91" />
+      </Color>
+      <Color Name="LandingPageConstrastBackground">
+        <Background Type="CT_RAW" Source="FFEEEEEE" />
+      </Color>
+      <Color Name="BorderLightContrast">
+        <Background Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="Squiggly">
+        <Background Type="CT_RAW" Source="FF0066CC" />
+      </Color>
+      <Color Name="LiveMetricsRequestStroke">
+        <Background Type="CT_RAW" Source="FF56B45D" />
+      </Color>
+      <Color Name="LiveMetricsRequestFill">
+        <Background Type="CT_RAW" Source="FFEDF7EE" />
+      </Color>
+      <Color Name="LiveMetricsFailedRequestStroke">
+        <Background Type="CT_RAW" Source="FFEA485C" />
+      </Color>
+      <Color Name="LiveMetricsFailedRequestFill">
+        <Background Type="CT_RAW" Source="FFFCECEE" />
+      </Color>
+      <Color Name="SquigglyOrange">
+        <Background Type="CT_RAW" Source="00FF7F29" />
+      </Color>
+    </Category>
+    <Category Name="ConfigPage" GUID="{699a73b3-57e2-4754-9364-ee80d6852c2f}">
+      <Color Name="TabActive">
+        <Background Type="CT_RAW" Source="FFF6F6F6" />
+        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="Watermark">
+        <Background Type="CT_RAW" Source="FFF6F6F6" />
+        <Foreground Type="CT_RAW" Source="FF717171" />
+      </Color>
+      <Color Name="DescriptionPane">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="Background">
+        <Background Type="CT_RAW" Source="FFF6F6F6" />
+        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="TabInactive">
+        <Background Type="CT_RAW" Source="FFFEFEFE" />
+        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="TabMouseOver">
+        <Background Type="CT_RAW" Source="FFCCCEDB" />
+        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+    </Category>
+    <Category Name="WelcomeExperience" GUID="{df76799d-28de-4975-81af-3357270f57eb}">
+      <Color Name="WelcomeExperienceButtonMousedownBackground">
+        <Background Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WelcomeExperienceButtonMouseoverForeground">
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="WelcomeExperienceButtonMousedownForeground">
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="WelcomeExperienceButtonMousedownBorder">
+        <Foreground Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WelcomeExperienceButtonMouseoverBorder">
+        <Foreground Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WelcomeExperienceButtonBorder">
+        <Background Type="CT_RAW" Source="FF999999" />
+      </Color>
+      <Color Name="WelcomeExperienceButtonBackground">
+        <Background Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="WelcomeExperienceButtonMouseoverBackground">
+        <Background Type="CT_RAW" Source="FF55AAFF" />
+      </Color>
+      <Color Name="WelcomeExperienceButtonForeground">
+        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonMousedownBackground">
+        <Background Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonMouseoverForeground">
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonMousedownForeground">
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonMousedownBorder">
+        <Foreground Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonMouseoverBorder">
+        <Foreground Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonBorder">
+        <Foreground Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonBackground">
+        <Background Type="CT_RAW" Source="FFC9DEF5" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonMouseoverBackground">
+        <Background Type="CT_RAW" Source="FF55AAFF" />
+      </Color>
+      <Color Name="WelcomeExperienceDistinctButtonForeground">
+        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="WelcomeExperienceBackground">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="WelcomeExperienceForeground">
+        <Background Type="CT_RAW" Source="FF000000" />
       </Color>
     </Category>
   </Theme>
